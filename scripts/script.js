@@ -7,6 +7,5 @@ function calculateIndex() {
   const form = (document.getElementsByTagName("gender");
   const selectedGender = form.querySelector('input[name="gender"]:checked');
 
-  const output = document.getElementById("output");
 
 }
