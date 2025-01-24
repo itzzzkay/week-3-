@@ -7,6 +7,29 @@
     <title>AKAN NAME GENERATOR</title>
   </head>
   <body>
+    <div class="container">
+      <h1>AKAN NAME GENERATOR</h1>
+      <form>
+        <label>
+          <input type="text" id="day" placeholder="Enter your day of birth" />
+        </label>
+        <label for="month" name="month">
+          <input
+            type="text"
+            id="month"
+            placeholder="Enter your month of birth"
+          />
+        </label>
+        <label>
+          <input type="text" id="year" placeholder="Enter your year of birth" />
+        </label>
+        <label> <input type="radio" name="gender" value="Male" /> Male </label>
+        <label>
+          <input type="radio" name="gender" value="Female" /> Female
+        </label>
+      </form>
+      <button onclick="generateAkanName(event)">Generate Akan Name</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
