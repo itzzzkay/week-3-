@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>AKAN NAME GENERATOR</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>AKAN NAME GENERATOR</h1>
+      <form id="dayForm">
+        <label for="dayInput">Day:</label>
+        <input type="number" id="dayInput" placeholder="DD" min="1" max="31">
+      </form>
+      <form id="monthForm">
+        <label for="monthInput">Month:</label>
+        <input type="number" id="monthInput" placeholder="MM" min="1" max="12">
+      </form>
+      <form id="yearForm">
+        <label for="yearInput">Year:</label>
+        <input type="number" id="yearInput" placeholder="YYYY" min="1900" max="2100">
+      </form>
+        <label> <input type="radio" name="gender" value="Male" /> Male </label>
+        <label>
+          <input type="radio" name="gender" value="Female" /> Female
+        </label>
+      </form>
+      <button onclick="generateAkanName(event)">Generate Akan Name</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
