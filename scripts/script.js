@@ -1,11 +1,13 @@
-let akanNames = {
-  male: ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"],
-  female: ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"],
-};
+document.getElementById("akanName").addEventListener("submit", function(event) {
+  event.preventDefault();
 
-function calculateIndex() {
-  const form = (document.getElementsByTagName("gender");
-  const selectedGender = form.querySelector('input[name="gender"]:checked');
+  const day = parseInt(document.getElementById("day").value, );
+  const month = parseInt(document.getElementById("month").value, );
+  const year = parseInt(document.getElementById("year").value, );
+  const gender = document.getElementById("gender").value;
+}
 
-
+if (!day || !month || !year || !gender) {
+  alert("Kinldly ensure all empty forms have been filled!");
+  return;
 }
