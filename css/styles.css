@@ -75,15 +75,14 @@ h1 {
 }
 #result {
   margin-top: 20px;
-  display: none; 
-  background: rgba(0, 0, 0, 0.6); 
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
   padding: 15px;
   border-radius: 10px;
   width: 100%;
   max-width: 450px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   text-align: center;
-}
 }
 .form-container {
   background: rgba(0, 0, 0, 0.6);
