@@ -4,26 +4,82 @@
   font-family: "Arial", sans-serif;
 }
 body {
-  background-color: #e6e6f7;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  text-align: center;
+  background: linear-gradient(45deg, #ff7f50, #ff6347);
+  color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 30px;
+  height: 100vh;
+  text-align: center;
+  padding: 0;
   flex-direction: column;
-  padding: 20px;
 }
 button {
   background-color: #24168a;
-  color: #fff;
+  color: #000000;
   font-size: 1.1rem;
   padding: 12px;
-  border-radius: 4px;
+  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.4s ease-in-out;
   width: 100%;
 }
 button:hover {
-  background-color: #0ee21f;
+  background-color: #41f30b;
+  color: #000;
   border: black;
   transition: background-color 0.4s ease-in-out;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+  border-radius: 4px;
+}
+form {
+  float: left;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+h1 {
+  color: #000000;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#dayResult,
+#akanNameResult {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+#result {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px black;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 20px;
+  text-align: center;
+}
+.form-container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 450px;
+  margin-top: 20px;
 }
