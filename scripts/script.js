@@ -23,20 +23,23 @@ document
     } else {
       akanName = femaleNames[weekDayIndex];
     }
-    alert(
-      `The day of the week of your birth is ${dayName}. Your Akan name is ${akanName}.`
-    );
+    document.getElementById(
+      "dayResult"
+    ).textContent = `The day of the week is ${dayName}.`;
+    document.getElementById(
+      "akanNameResult"
+    ).textContent = `Your Akan name is ${akanName}.`;
   });
 
 //Arrays
 const weekDaysNames = [
-  "Saturday",
   "Sunday",
   "Monday",
   "Tuesday",
   "Wednesday",
   "Thursday",
   "Friday",
+  "Saturday",
 ];
 const maleNames = [
   "Kwasi",
