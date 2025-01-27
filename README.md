@@ -10,7 +10,7 @@ Akan Name Generator is a web-based application that calculates the day of the we
 
 Kyle Mwendwa.
 
-~Software Engineer.~
+Software Engineer.
 
 ## Setup Instructions
 
